@@ -1,20 +1,20 @@
 //solve 1:
 #include<iostream>
 using namespace std;
-int fectorial(int a)
+int fib(int a)
 {
   if(a==0)
   return 0;
   if(a==1)
   return 1;
-  return fectorial(a-1)+fectorial(a-2);;
+  return fib(a-1)+fib(a-2);;
 }
 
 int main()
 {
     int a,ans;
     cin>>a;
-    cout<<fectorial(a);
+    cout<<fib(a);
 }
 
 
