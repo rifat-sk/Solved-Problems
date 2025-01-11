@@ -16,6 +16,8 @@ int main()
     cin>>a;
     cout<<fectorial(a);
 }
+
+
 //solve 2:
 #include<iostream>
 using namespace std;
